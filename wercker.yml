@@ -1,0 +1,38 @@
+box:
+  id: openjdk
+
+build:
+  steps:
+    - script:
+        name: step 1
+        code: |
+          ls
+
+  after-steps:
+    - slack-notifier:
+      url:  $SLACK_URL
+
+deploy:
+  steps:
+    - script:
+        name: step 1
+        code: |
+          ls
+
+  after-steps:
+    - slack-notifier:
+      url:  $SLACK_URL
+
+
+ex_fail:
+  steps:
+    - script:
+        name: step 1
+        code: |
+          asdfaf
+
+  after-steps:
+    - slack-notifier:
+      url:  $SLACK_URL
+
+
