@@ -1,6 +1,5 @@
 # wercker-slack-notifier
 
-Introduction
 This project shows an example of how to use "after-steps" to send a notification to a Slack channel after a Wercker pipeline has executed.
 
 Slack Notification
