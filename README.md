@@ -2,6 +2,8 @@
 
 This project shows an example of how to use "after-steps" to send a notification to a Slack channel after a Wercker pipeline has executed.
 
+Note that you must have curl installed on the docker image
+
 Slack Notification
 - Must create a slack application and add an incoming web hook on that application.
 See https://api.slack.com/incoming-webhooks
