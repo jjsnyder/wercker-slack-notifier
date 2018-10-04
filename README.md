@@ -26,7 +26,8 @@ After Step
 See wercker.yml for an example of how "after-steps" are used.
 
 
-resources:
+Resources
+
 Learn more about steps and after-step: 
 - http://devcenter-staging.wercker.com/learn/steps/introduction.html
 - http://devcenter-staging.wercker.com/learn/steps/after-steps.html
